@@ -1,0 +1,4 @@
+Using the videos for the Week 3 lectures in D2L, write the Lisp code for the following algorithms:
+1. Sequential Search. The inputs to this funtion will be a list and a target item. The function should return the position of 
+of the target item in the list, or return -1 if the item is not found.
+2. Bubblesort. The input to this function
