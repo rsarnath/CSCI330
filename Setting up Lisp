@@ -1,0 +1,15 @@
+SETTING UP LISP on Github Ubuntu Terminal.
+Run the following commands in the terminal window. Every command should execute without errors, before entering the 
+next command. When all 4 are executed, you will be able to run lisp using the command "sbcl". 
+   
+   curl -L http://prdownloads.sourceforge.net/sbcl/sbcl-1.4.3-x86-linux-binary.tar.bz2 --out out.tar.bz2
+   
+   bzip2 -cd out.tar.bz2 | tar xvf -
+
+   cd sbcl-1.4.3-x86-linux/
+
+   sudo ./install.sh
+
+
+ 
+ 
