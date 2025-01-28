@@ -1,0 +1,20 @@
+Script started on 2025-01-28 02:09:27+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="118" LINES="10"]
+[0;32m@rsarnath [0m➜ [1;34m/workspaces/CSCI330/sbcl-1.4.3-x86-linux [0;36m([1;31mmain[0;36m) [0m$ sbcl
+This is SBCL 1.4.3, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+* (cons 5 '(a b c))
+
+(5 A B C)
+* ( ^[[A    (cons '5 '(a b c))
+
+(5 A B C)
+* (quit)
+[0;32m@rsarnath [0m➜ [1;34m/workspaces/CSCI330/sbcl-1.4.3-x86-linux [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2025-01-28 02:10:19+00:00 [COMMAND_EXIT_CODE="0"]
