@@ -1,0 +1,5 @@
+(defun t2 (a b c d)
+(setf x (+ c d))
+(cond ((> x  0)(+ (* a b)  2 ))
+       ((> x -2)(+ (* a b) 5))
+       (t (+ (* c d)  25))))
