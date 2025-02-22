@@ -15,7 +15,7 @@
 
 (defun Bfn(str)
 (print '( in Bfn)) (print str)
-(cond ((eql (car str) 'a) (cdr (cdr str)))
+(cond ((and (eql (car str) 'a) (eql (cadr str) 'd)) (cdr (cdr str)))
       ((eql (car str) 'b) (cond ((eql (Bfn (cdr str)) nil)(append (cdr str)(list 'err)))
                                  ((eql (car (Bfn (cdr str))) 'a) (cdr (Bfn (cdr str))))
                                  (t (append (cdr str)(list 'err))) ) )
